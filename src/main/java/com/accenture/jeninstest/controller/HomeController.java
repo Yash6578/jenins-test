@@ -14,10 +14,10 @@ public class HomeController {
         return ResponseEntity.accepted().body("This is home page new");
     }
     
-    //@GetMapping("/profile")
+    @GetMapping("/profile")
     ResponseEntity<Object> profile() {
         log.info("profile method called");
-        return ResponseEntity.accepted().body("This is home page");
+        return ResponseEntity.accepted().body("This is profile page");
     }
 
     @GetMapping("/about-us")

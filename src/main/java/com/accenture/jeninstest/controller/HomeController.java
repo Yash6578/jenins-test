@@ -15,7 +15,7 @@ public class HomeController {
     }
     
     //@GetMapping("/profile")
-    ResponseEntity<Object> home() {
+    ResponseEntity<Object> profile() {
         log.info("profile method called");
         return ResponseEntity.accepted().body("This is home page");
     }

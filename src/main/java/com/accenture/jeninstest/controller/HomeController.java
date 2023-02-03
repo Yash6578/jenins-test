@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/home")
     ResponseEntity<Object> home() {
-        log.info("home method called");
+        log.info("home method called new");
         return ResponseEntity.accepted().body("This is home page");
     }
     

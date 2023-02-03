@@ -26,3 +26,5 @@ public class HomeController {
         return ResponseEntity.accepted().body("This is about-us page");
     }
 }
+
+

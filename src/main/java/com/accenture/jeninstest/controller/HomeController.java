@@ -13,6 +13,12 @@ public class HomeController {
         log.info("home method called");
         return ResponseEntity.accepted().body("This is home page");
     }
+    
+    //@GetMapping("/profile")
+    ResponseEntity<Object> home() {
+        log.info("profile method called");
+        return ResponseEntity.accepted().body("This is home page");
+    }
 
     @GetMapping("/about-us")
     ResponseEntity<Object> aboutUs() {
